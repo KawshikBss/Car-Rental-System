@@ -1,0 +1,68 @@
+# Node.js
+/node_modules
+/client/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+client/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+client/build
+
+# React specific
+client/.next
+client/out
+client/coverage
+
+# Dependency directories
+client/.pnp
+client/pnp.js
+
+# IDE and editor specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Tests
+client/jest/
+client/test-results/
+
+# TypeScript
+client/.turbo
+client/.eslintcache
+client/.next/
+client/.vercel/
+client/.yarn/*
+client/.yarn/cache
+client/.yarn/unplugged
+client/.yarn/build-state.yml
+client/.yarn/install-state.gz
+
+# Production files
+server/.env.production
+server/.env.local
+server/.env.development
+client/.env.production
+client/.env.local
+client/.env.development
